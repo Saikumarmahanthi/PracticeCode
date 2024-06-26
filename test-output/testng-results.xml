@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="16" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-26T11:44:33 IST" name="Suite" finished-at="2024-06-26T11:44:46 IST" duration-ms="13282">
+    <groups>
+    </groups>
+    <test started-at="2024-06-26T11:44:33 IST" name="Test" finished-at="2024-06-26T11:44:46 IST" duration-ms="13282">
+      <class name="com.framework.Tests.MytraTest">
+        <test-method signature="mytraTest()[pri:0, instance:com.framework.Tests.MytraTest@1c5920df]" started-at="2024-06-26T11:44:43 IST" name="mytraTest" finished-at="2024-06-26T11:44:44 IST" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytraTest -->
+        <test-method is-config="true" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.framework.Tests.MytraTest@1c5920df]" started-at="2024-06-26T11:44:43 IST" name="beforeTCExecution" finished-at="2024-06-26T11:44:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.framework.Tests.MytraTest.mytraTest() throws java.io.FileNotFoundException,java.io.IOException,org.json.simple.parser.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method is-config="true" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.framework.Tests.MytraTest@1c5920df]" started-at="2024-06-26T11:44:44 IST" name="afterTCExecution" finished-at="2024-06-26T11:44:44 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mytraTest status=SUCCESS method=MytraTest.mytraTest()[pri:0, instance:com.framework.Tests.MytraTest@1c5920df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+      </class> <!-- com.framework.Tests.MytraTest -->
+      <class name="com.framework.Tests.AmazonTest">
+        <test-method signature="amazonTest()[pri:0, instance:com.framework.Tests.AmazonTest@350aac89]" started-at="2024-06-26T11:44:40 IST" name="amazonTest" finished-at="2024-06-26T11:44:42 IST" duration-ms="1936" status="FAIL">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64b3adbe3053e5e64a6fcfc34b8c6b8b, findElement {using=id, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\SaiKumar\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60640}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60640/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64b3adbe3053e5e64a6fcfc34b8c6b8b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: {"status":32,"value":"An invalid or illegal selector was specified"}
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [64b3adbe3053e5e64a6fcfc34b8c6b8b, findElement {using=id, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\SaiKumar\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60640}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60640/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64b3adbe3053e5e64a6fcfc34b8c6b8b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at com.framework.Tests.AmazonTest.amazonTest(AmazonTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+        <test-method is-config="true" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.framework.Tests.AmazonTest@350aac89]" started-at="2024-06-26T11:44:40 IST" name="beforeTCExecution" finished-at="2024-06-26T11:44:40 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.framework.Tests.AmazonTest.amazonTest() throws java.io.FileNotFoundException,java.io.IOException,org.json.simple.parser.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method is-config="true" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.framework.Tests.AmazonTest@350aac89]" started-at="2024-06-26T11:44:42 IST" name="afterTCExecution" finished-at="2024-06-26T11:44:43 IST" duration-ms="316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=amazonTest status=FAILURE method=AmazonTest.amazonTest()[pri:0, instance:com.framework.Tests.AmazonTest@350aac89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+      </class> <!-- com.framework.Tests.AmazonTest -->
+      <class name="com.framework.Tests.Filpkart">
+        <test-method is-config="true" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.framework.Tests.Filpkart@17f9d882]" started-at="2024-06-26T11:44:44 IST" name="beforeTCExecution" finished-at="2024-06-26T11:44:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.framework.Tests.Filpkart.filpkartTest() throws java.io.FileNotFoundException,java.io.IOException,org.json.simple.parser.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method signature="filpkartTest()[pri:0, instance:com.framework.Tests.Filpkart@17f9d882]" started-at="2024-06-26T11:44:44 IST" name="filpkartTest" finished-at="2024-06-26T11:44:46 IST" duration-ms="1982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filpkartTest -->
+        <test-method is-config="true" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.framework.Tests.Filpkart@17f9d882]" started-at="2024-06-26T11:44:46 IST" name="afterTCExecution" finished-at="2024-06-26T11:44:46 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filpkartTest status=SUCCESS method=Filpkart.filpkartTest()[pri:0, instance:com.framework.Tests.Filpkart@17f9d882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+      </class> <!-- com.framework.Tests.Filpkart -->
+      <class name="com.framework.Tests.Divami">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.framework.Tests.Divami@548d708a]" started-at="2024-06-26T11:44:30 IST" name="openBrowser" finished-at="2024-06-26T11:44:33 IST" duration-ms="3001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initReport()[pri:0, instance:com.framework.Tests.Divami@548d708a]" started-at="2024-06-26T11:44:33 IST" name="initReport" finished-at="2024-06-26T11:44:33 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method is-config="true" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.framework.Tests.Divami@548d708a]" started-at="2024-06-26T11:44:33 IST" name="beforeTCExecution" finished-at="2024-06-26T11:44:33 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.framework.Tests.Divami.divamiTest() throws java.io.FileNotFoundException,java.io.IOException,org.json.simple.parser.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method signature="divamiTest()[pri:0, instance:com.framework.Tests.Divami@548d708a]" started-at="2024-06-26T11:44:33 IST" name="divamiTest" finished-at="2024-06-26T11:44:40 IST" duration-ms="7279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divamiTest -->
+        <test-method is-config="true" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.framework.Tests.Divami@548d708a]" started-at="2024-06-26T11:44:40 IST" name="afterTCExecution" finished-at="2024-06-26T11:44:40 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=divamiTest status=SUCCESS method=Divami.divamiTest()[pri:0, instance:com.framework.Tests.Divami@548d708a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:com.framework.Tests.Divami@548d708a]" started-at="2024-06-26T11:44:46 IST" name="closeReport" finished-at="2024-06-26T11:44:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.framework.Tests.Divami@548d708a]" started-at="2024-06-26T11:44:46 IST" name="closeBrowser" finished-at="2024-06-26T11:44:46 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.framework.Tests.Divami -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

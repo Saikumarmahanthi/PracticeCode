@@ -1,0 +1,5 @@
+com\framework\Pages\Amazon_HomePage.class
+com\framework\Tests\AmazonTest.class
+com\framework\Tests\Divami.class
+com\framework\Tests\Filpkart.class
+com\framework\Tests\MytraTest.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="com.framework.Tests.AmazonTest">
+        <methods>
+          <include name="afterTCExecution"/>
+          <include name="closeBrowser"/>
+          <include name="initReport"/>
+          <include name="openBrowser"/>
+          <include name="beforeTCExecution"/>
+          <include name="amazonTest"/>
+          <include name="closeReport"/>
+        </methods>
+      </class> <!-- com.framework.Tests.AmazonTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

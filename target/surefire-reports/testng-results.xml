@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-26T14:33:29 IST" name="Suite" finished-at="2024-06-26T14:33:45 IST" duration-ms="15670">
+    <groups>
+    </groups>
+    <test started-at="2024-06-26T14:33:29 IST" name="Test" finished-at="2024-06-26T14:33:45 IST" duration-ms="15670">
+      <class name="com.framework.Tests.MytraTest">
+        <test-method is-config="true" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.framework.Tests.MytraTest@1f3f4916]" started-at="2024-06-26T14:33:41 IST" name="beforeTCExecution" finished-at="2024-06-26T14:33:41 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.framework.Tests.MytraTest.mytraTest() throws java.io.FileNotFoundException,java.io.IOException,org.json.simple.parser.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method signature="mytraTest()[pri:0, instance:com.framework.Tests.MytraTest@1f3f4916]" started-at="2024-06-26T14:33:41 IST" name="mytraTest" finished-at="2024-06-26T14:33:42 IST" duration-ms="1512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytraTest -->
+        <test-method is-config="true" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.framework.Tests.MytraTest@1f3f4916]" started-at="2024-06-26T14:33:42 IST" name="afterTCExecution" finished-at="2024-06-26T14:33:42 IST" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mytraTest status=SUCCESS method=MytraTest.mytraTest()[pri:0, instance:com.framework.Tests.MytraTest@1f3f4916] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+      </class> <!-- com.framework.Tests.MytraTest -->
+      <class name="com.framework.Tests.AmazonTest">
+        <test-method is-config="true" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.framework.Tests.AmazonTest@1ed1993a]" started-at="2024-06-26T14:33:37 IST" name="beforeTCExecution" finished-at="2024-06-26T14:33:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.framework.Tests.AmazonTest.amazonTest() throws java.io.FileNotFoundException,java.io.IOException,org.json.simple.parser.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method signature="amazonTest()[pri:0, instance:com.framework.Tests.AmazonTest@1ed1993a]" started-at="2024-06-26T14:33:37 IST" name="amazonTest" finished-at="2024-06-26T14:33:41 IST" duration-ms="3495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+        <test-method is-config="true" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.framework.Tests.AmazonTest@1ed1993a]" started-at="2024-06-26T14:33:41 IST" name="afterTCExecution" finished-at="2024-06-26T14:33:41 IST" duration-ms="42" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=amazonTest status=SUCCESS method=AmazonTest.amazonTest()[pri:0, instance:com.framework.Tests.AmazonTest@1ed1993a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+      </class> <!-- com.framework.Tests.AmazonTest -->
+      <class name="com.framework.Tests.Filpkart">
+        <test-method signature="filpkartTest()[pri:0, instance:com.framework.Tests.Filpkart@794cb805]" started-at="2024-06-26T14:33:42 IST" name="filpkartTest" finished-at="2024-06-26T14:33:45 IST" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filpkartTest -->
+        <test-method is-config="true" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.framework.Tests.Filpkart@794cb805]" started-at="2024-06-26T14:33:42 IST" name="beforeTCExecution" finished-at="2024-06-26T14:33:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.framework.Tests.Filpkart.filpkartTest() throws java.io.FileNotFoundException,java.io.IOException,org.json.simple.parser.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method is-config="true" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.framework.Tests.Filpkart@794cb805]" started-at="2024-06-26T14:33:45 IST" name="afterTCExecution" finished-at="2024-06-26T14:33:45 IST" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filpkartTest status=SUCCESS method=Filpkart.filpkartTest()[pri:0, instance:com.framework.Tests.Filpkart@794cb805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+      </class> <!-- com.framework.Tests.Filpkart -->
+      <class name="com.framework.Tests.Divami">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.framework.Tests.Divami@2b6faea6]" started-at="2024-06-26T14:33:18 IST" name="openBrowser" finished-at="2024-06-26T14:33:29 IST" duration-ms="11033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initReport()[pri:0, instance:com.framework.Tests.Divami@2b6faea6]" started-at="2024-06-26T14:33:29 IST" name="initReport" finished-at="2024-06-26T14:33:29 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method is-config="true" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.framework.Tests.Divami@2b6faea6]" started-at="2024-06-26T14:33:29 IST" name="beforeTCExecution" finished-at="2024-06-26T14:33:29 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.framework.Tests.Divami.divamiTest() throws java.io.FileNotFoundException,java.io.IOException,org.json.simple.parser.ParseException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method signature="divamiTest()[pri:0, instance:com.framework.Tests.Divami@2b6faea6]" started-at="2024-06-26T14:33:29 IST" name="divamiTest" finished-at="2024-06-26T14:33:37 IST" duration-ms="7506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divamiTest -->
+        <test-method is-config="true" signature="afterTCExecution(org.testng.ITestResult)[pri:0, instance:com.framework.Tests.Divami@2b6faea6]" started-at="2024-06-26T14:33:37 IST" name="afterTCExecution" finished-at="2024-06-26T14:33:37 IST" duration-ms="369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=divamiTest status=SUCCESS method=Divami.divamiTest()[pri:0, instance:com.framework.Tests.Divami@2b6faea6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTCExecution -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:com.framework.Tests.Divami@2b6faea6]" started-at="2024-06-26T14:33:45 IST" name="closeReport" finished-at="2024-06-26T14:33:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.framework.Tests.Divami@2b6faea6]" started-at="2024-06-26T14:33:45 IST" name="closeBrowser" finished-at="2024-06-26T14:33:45 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.framework.Tests.Divami -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

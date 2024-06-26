@@ -1,0 +1,12 @@
+com\framework\BaseClass\BaseTest.class
+com\framework\listener\CustomListener.class
+com\framework\objectrepo\ExcelReader.class
+com\framework\objectrepo\FilePaths.class
+com\framework\objectrepo\JsonReader.class
+com\framework\BaseClass\ElementActions.class
+com\framework\Utilies\ScreenshotUtility.class
+com\framework\Utilies\FrameworkExeptions.class
+com\framework\listener\RerunFailedTests.class
+com\framework\objectrepo\PropertiesReader.class
+com\framework\Utilies\Reports.class
+com\framework\objectrepo\PojoReader.class
