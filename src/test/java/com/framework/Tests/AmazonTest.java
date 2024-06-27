@@ -17,8 +17,8 @@ public class AmazonTest extends ElementActions {
 	@Test
 	public void amazonTest() throws FileNotFoundException, IOException, ParseException {
 		url(PojoReader.getproperties().getPropertyValue("amazon_url"));
-//		//WebElement ele = getDriver().findElement(By.id(""));
-//		clickOnElement(ele, "SAI");
+		WebElement ele = getDriver().findElement(By.id("username"));
+		clickOnElement(ele, "SAI");
 //		Amazon_HomePage.searchInput("Laptop");
 //		Amazon_HomePage.searchdopdown();
 //		Amazon_HomePage.submit();
